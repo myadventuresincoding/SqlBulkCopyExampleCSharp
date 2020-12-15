@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlBulkCopyExample", "SqlBulkCopyExample\SqlBulkCopyExample.csproj", "{F1E218D3-A693-42F0-9828-13323E923B4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA59155C-14B4-4ADD-9EF2-86A6D8ECFB45}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "db", "db", "{76356C02-23CF-4C37-8DB3-E8C1F07FACA6}"
+	ProjectSection(SolutionItems) = preProject
+		db\Create_Database_and_User.sql = db\Create_Database_and_User.sql
+		db\Create_Table.sql = db\Create_Table.sql
+		db\Select.sql = db\Select.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1E218D3-A693-42F0-9828-13323E923B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E218D3-A693-42F0-9828-13323E923B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E218D3-A693-42F0-9828-13323E923B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E218D3-A693-42F0-9828-13323E923B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49021630-E376-49DC-B905-42642D851855}
+	EndGlobalSection
+EndGlobal
