@@ -36,7 +36,7 @@ namespace DataTableExample
             dailySalesStats.Columns.Add(salesPersonIdColumn);
             dailySalesStats.Columns.Add(totalSalesColumn);
 
-            // Let's populate the datatable with our stats, which could come from REST APIs, etc.
+            // Let's populate the datatable with our stats.
             // You can add as many rows as you want here!
 
             // Create a new row
